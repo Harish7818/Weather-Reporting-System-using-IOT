@@ -1,0 +1,18 @@
+## Components
+
+| Name      | Quantity | Component                |
+|-----------|----------|--------------------------|
+| U3        | 1        | Arduino Uno R3           |
+| U4        | 1        | LCD 16 x 2               |
+| Rpot1     | 1        | 250 kΩ Potentiometer     |
+| R1        | 1        | 220 Ω Resistor           |
+| U5        | 1        | Temperature Sensor (TMP36) |
+| D2        | 1        | Red LED                  |
+| PIEZO2    | 1        | Piezo                    |
+| R2, R3, R4| 3        | 220 Ω Resistor           |
+| D1        | 1        | Yellow LED               |
+| D3        | 1        | Blue LED                 |
+
+## Overview
+
+The temperature monitoring system reads temperature data using a TMP36 sensor and displays it on a 16x2 LCD display. Based on the temperature readings, it triggers LEDs of different colors and a piezo buzzer for alerts.
